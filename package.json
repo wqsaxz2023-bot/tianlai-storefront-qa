@@ -1,0 +1,14 @@
+{
+  "name": "tianlai-storefront-qa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Playwright cloud QA and Devin Bot regression triage workflow for Tianlai Toys B2B storefront",
+  "scripts": {
+    "test": "playwright test",
+    "test:t990": "playwright test tests/t990-quote-flow.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "typescript": "^5.7.0"
+  }
+}
